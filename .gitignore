@@ -1,2 +1,2 @@
-key.lock
-key.txt
+*.lock
+*.txt
