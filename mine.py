@@ -92,7 +92,7 @@ for nonce in range(100000000):
     if VERBOSE:
         print("nonce:{0:08d}".format(nonce), "hash hex:", hash.hex())
 
-    if re.match(r'0{' + str(DIFFICULTY) + r'}', hash.hex()):
+    if re.match("375", hash.hex()):
         break;
 
 if not VERBOSE:
